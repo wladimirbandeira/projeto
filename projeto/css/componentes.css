@@ -1,0 +1,128 @@
+
+
+
+.planos{
+	width: 35%;
+	padding: 10px;
+
+}
+
+.plano_cabecalho{
+
+	text-align: center;/* titulo centralizado */
+	width: 280px;
+	line-height: 2.5;
+}
+
+.plano_text_servicos{
+
+	width: 220px;
+	color:#A6A6A6;
+}
+
+/*------------------*\
+NAVEGAÇÃO
+\*-------------------*/
+
+.navegacao{
+
+}
+
+
+	
+.navegacao_menu{
+	float: right;
+}
+
+/*------------------*\
+BOTAO_CHAVEADOR 
+\*-------------------*/
+.botao-chaveador{
+	width: 24px;
+	height: 24px;
+	background: none;
+	border:0;
+	outline: none;
+	margin-top: 60px;
+	background-image: url("../images/bars.png");
+}
+
+@media(min-width: 992px){
+	.botao-chaveador{
+		display: none;
+	}
+}
+
+
+
+/*------------------*\
+       MENU
+\*-------------------*/
+
+.menu{
+	margin: 0;
+		
+	font-size: 1.8rem;
+	
+	list-style: none;
+}
+
+.menu a{
+		text-decoration:none;
+	}
+
+
+@media(max-width: 991px){
+
+	.menu{
+		position: fixed;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		width: 200px;
+		display: none;
+		background-color: #bfbfbf;
+		
+		border-right: 1px solid #eee;
+	}
+
+	
+	.menu--exibindo{
+		display: block;
+	}
+
+	.menu_item{
+		display: block;
+		line-height: 3;
+	}
+}
+
+
+@media(min-width: 992px ){
+	.menu_item{
+		display: inline-block;
+		padding-right: 20px;
+		line-height: 8.5;
+	}
+}
+
+/*------------------*\
+ FORMULÁRIO DE ACESSO AO LOGIN
+\*-------------------*/
+
+
+.grupo-entrada{
+	margin-bottom: 15px;
+}
+
+.grupo-entrada > label{
+	display: block;
+}
+
+/*------------------*\
+ CONFIGURAÇÃO PARA O BANNER
+\*-------------------*/
+
+.img-responsive{
+	margin-top: 15px;
+}

@@ -1,0 +1,44 @@
+/*------------------*\
+O TOPO AONDE ESTÁ O
+LOGO TIPO
+
+\*-------------------*/
+
+.layout-cabecalho{
+	border-bottom: 1px solid #ccc;
+	 height: 120px;
+	background-color: #fff;
+}
+
+
+
+.layout-cabecalho--home{
+	position: fixed;
+	top:0;
+	left: 0;
+	right: 0;
+	z-index: 9999;
+}
+
+.layout-chamada{
+	padding: 150px 0;
+	margin-bottom: -150px;
+	
+}
+
+.banner{
+	float: right;
+}
+
+.layout-planos{
+	padding: 40px 0;
+	margin-top: -20px;
+}
+
+.layout-rodape{
+	padding: 20px 0;
+	background-color: #484848;
+	color:#fff;
+	text-align: center;
+}
+
